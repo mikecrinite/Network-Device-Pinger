@@ -14,19 +14,15 @@ from email.mime import multipart
 from email.mime.text import MIMEText
 
 # Name of server/website/computer name to ping
-# hostname = input("Enter IP address of server: \n")
-hostname = "192.168.1.1"
+hostname = input("Enter IP address of server: \n")
 # Username for email account to log into
 username = input("Enter username: ")
-# username = <user>
 # Password for email account to log into
 password = input("Enter password: ");
 # Address to send mail from
 fromaddr = input("Enter address to send from: ")
-# FROM = <email>
 # Address to send mail to (@att.txt.net)
 toaddrs = input("Enter address to send to: ")
-
 
 
 # Pings the server
